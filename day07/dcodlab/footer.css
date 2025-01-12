@@ -1,0 +1,35 @@
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid gray;
+}
+.footer-t {
+  font-size: 24px;
+}
+.footer-link {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 13px;
+}
+.footer-info {
+  padding-top: 30px;
+  font-size: 13px;
+  line-height: 18px;
+}

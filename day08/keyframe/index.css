@@ -1,0 +1,64 @@
+.rotate-center {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  -webkit-animation: rotate-center 1s ease-in-out both;
+  animation: rotate-center 1s ease-in-out both;
+}
+.flip-diagonal-1-tr {
+  -webkit-animation: flip-diagonal-1-tr 1s
+    cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
+  animation: flip-diagonal-1-tr 1s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    infinite both;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+@keyframes abcd {
+  0% {
+    background-color: white;
+  }
+  100% {
+    background-color: pink;
+  }
+}
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes flip-diagonal-1-tr {
+  0% {
+    -webkit-transform: rotate3d(1, 1, 0, 0deg);
+    transform: rotate3d(1, 1, 0, 0deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(1, 1, 0, 180deg);
+    transform: rotate3d(1, 1, 0, 180deg);
+  }
+}
+@keyframes flip-diagonal-1-tr {
+  0% {
+    -webkit-transform: rotate3d(1, 1, 0, 0deg);
+    transform: rotate3d(1, 1, 0, 0deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(1, 1, 0, 180deg);
+    transform: rotate3d(1, 1, 0, 180deg);
+  }
+}

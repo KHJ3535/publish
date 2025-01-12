@@ -1,0 +1,13 @@
+div > button {
+  border: none;
+}
+div > span > button {
+  border: none;
+  color: aqua;
+}
+
+.profile > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}

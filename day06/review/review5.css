@@ -1,0 +1,110 @@
+.container {
+  width: 1340px;
+  margin: 0 auto;
+}
+.car-list {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.car-card {
+  position: relative;
+  width: 430px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  font-size: 26px;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  height: 100%;
+  padding: 5px 15px;
+  border-radius: 25px;
+}
+
+.mini-info {
+  margin-top: 20px;
+  color: gray;
+  margin-bottom: 10px;
+}
+.car-card > img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.info-list {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid lightgray;
+}
+.info {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info-a > p {
+  margin-bottom: 30px;
+}
+.info-b > p {
+  margin-bottom: 30px;
+}
+.info-b {
+  text-align: right;
+}
+.option {
+  line-height: 24px;
+}
+.b {
+  font-weight: 600;
+}
+.price {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 600;
+}
+.won {
+  font-size: 14px;
+}
+.link-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.link-btn > button {
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+.btn-a {
+  background-color: white;
+  border: 1px solid gray;
+}
+.btn-b {
+  background-color: black;
+  color: white;
+}

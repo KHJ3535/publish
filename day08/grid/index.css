@@ -1,0 +1,30 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  height: 500px;
+}
+
+.box-a {
+  grid-area: 1 / 1 / 3 / 4;
+}
+.box-b {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.box-c {
+  grid-area: 2 / 4 / 3 / 5;
+}
+.box-d {
+  grid-area: 3 / 1 / 5 / 4;
+}
+.box-e {
+  grid-area: 3 / 4 / 5 / 5;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}

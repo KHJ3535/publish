@@ -1,0 +1,29 @@
+* {
+  font-family: "Noto Sans Kr", sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.container2 {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.container3 {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+.container4 {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.material-symbols-outlined {
+  padding: 0;
+}
+.section {
+  padding: 100px 0px;
+}

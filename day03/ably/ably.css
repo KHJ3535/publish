@@ -1,0 +1,45 @@
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+.m-card-list {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.m-card {
+  width: 290px;
+  height: 500px;
+}
+.ml {
+  margin-left: 20px;
+}
+img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.price {
+  margin-top: 10px;
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+}
+.dis {
+  color: red;
+  margin-right: 10px;
+}
+.info {
+  color: gray;
+  font-size: 12px;
+}
+.info > p {
+  margin-top: 5px;
+}
+.cop {
+  font-weight: 600;
+}
+.name {
+  font-weight: 400;
+}

@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.container__2 {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.container__3 {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.dot {
+  font-size: 70px;
+  color: #00a2c7;
+}
+.blue {
+  color: #00a2c7;
+}

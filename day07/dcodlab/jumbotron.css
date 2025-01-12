@@ -1,0 +1,31 @@
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("back.jpg");
+  background-size: cover;
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.title {
+  font-size: 140px;
+  font-weight: 400;
+  color: white;
+}
+.t-info {
+  font-size: 16px;
+  color: gray;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  line-height: 24px;
+}
+.view-btn {
+  width: fit-content;
+  padding: 5px 180px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,76 @@
+.intro__page {
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
+    url(socarback.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  z-index: 1;
+}
+.logo {
+  font-weight: 900;
+}
+.menu {
+  width: 30px;
+  height: 14px;
+  position: absolute;
+  right: 0;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.menu:hover .bar1 {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  transform: rotate(45deg);
+}
+.menu:hover .bar2 {
+  position: absolute;
+  right: 10%;
+  bottom: 50%;
+  transform: rotate(-45deg);
+}
+.bar1 {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  height: 4px;
+  background-color: white;
+}
+.bar2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 4px;
+  background-color: white;
+}
+
+.intro__page {
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro__comments {
+  text-align: center;
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 90px;
+  color: white;
+}

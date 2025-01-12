@@ -1,0 +1,40 @@
+.cardback {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-top: 25px;
+  border-radius: 20px;
+}
+
+.card {
+  margin: 0 auto;
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img1 {
+  width: 100%;
+  height: 400px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+.profile {
+  width: 100%;
+  height: 200px;
+  padding: 40px 20px 20px 20px;
+}
+.profile > h6 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.profile > p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}

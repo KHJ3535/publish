@@ -1,0 +1,172 @@
+.jumbotron {
+  width: 100%;
+  height: 93vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(image/intro_background_img.jpg);
+}
+.intro {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.intro__title {
+  color: white;
+  font-size: 70px;
+  font-weight: 900;
+}
+.intro__info {
+  font-size: 20px;
+  color: lightgray;
+}
+.intro__btn {
+  font-size: 18px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* ========== Aboutme Section ==========*/
+
+.aboutme {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card__title {
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.aboutme__miniinfo {
+  border-left: 1px solid gray;
+  padding-left: 136px;
+}
+.aboutme__link {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.aboutme__card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+.aboutme__card > .aboutme__card--image {
+  font-size: 40px;
+}
+.aboutme__card--info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.aboutme__card--title {
+  font-size: 16px;
+  font-weight: 500;
+}
+.aboutme__card--p {
+  color: gray;
+  font-size: 14px;
+}
+
+/* ========== Work Section ==========*/
+
+.work {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.work__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.work__card {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease-out;
+  transform: translateY(0px);
+}
+
+.work__card > i {
+  font-size: 80px;
+  color: gray;
+}
+
+.card__hover {
+  position: absolute;
+  padding: 20px;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 14px;
+  width: 100%;
+  height: 100%;
+  color: white;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.work__card:hover {
+  transform: translateY(10px);
+}
+
+.work__card:hover .card__hover {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.work__name {
+  font-size: 30px;
+  font-weight: 900;
+}
+.work__info {
+  font-size: 14px;
+  font-weight: 500;
+}
+.work__btn {
+  margin-top: 10px;
+  border-radius: 2px;
+  padding: 8px 16px;
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.work__btn:hover {
+  color: white;
+  background-color: #0090ff;
+}
+.work__card--image {
+  width: 100%;
+  object-fit: cover;
+}
+.work__card--1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.work__card--2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.work__card--3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.work__card--4 {
+  grid-area: 1 / 4 / 2 / 5;
+}

@@ -1,0 +1,38 @@
+.blue {
+  background-color: #185df1;
+  color: white;
+}
+.green {
+  background-color: #0fda34;
+  color: white;
+}
+.pill {
+  border: none;
+  border-radius: 3px;
+  margin-right: 20px;
+  font-size: 300;
+}
+.rounded {
+  border-radius: 25px;
+}
+.p-1 {
+  padding: 8px 10px;
+}
+.p-2 {
+  padding: 10px 25px;
+}
+.p-3 {
+  padding: 15px 100px;
+}
+.p-4 {
+  padding: 8px 10px;
+}
+.p-5 {
+  padding: 12px 40px;
+}
+.p-6 {
+  padding: 15px 100px;
+}
+.greenbox {
+  margin-top: 20px;
+}

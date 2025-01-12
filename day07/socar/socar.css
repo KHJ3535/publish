@@ -1,0 +1,40 @@
+* {
+  font-family: "Noto Sans KR", serif;
+}
+.back {
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  border-bottom: 1px solid black;
+}
+.header > .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px 0;
+}
+.logo {
+  font-size: 24px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+.nav > li {
+  margin-left: 40px;
+}
+.nav > li:hover {
+  font-weight: 600;
+}
+.nav > li::after {
+  content: attr(title);
+  display: block;
+  font-weight: 600;
+  height: 0;
+  visibility: hidden;
+}

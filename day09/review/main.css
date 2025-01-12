@@ -1,0 +1,39 @@
+.info__list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 90px;
+}
+.info__title {
+  font-size: 40px;
+  font-weight: 400;
+  padding-bottom: 28px;
+  color: #1c2024;
+}
+.bold {
+  font-weight: 500;
+}
+
+.info__comments {
+  font-size: 18px;
+  color: rgb(174, 174, 174);
+  line-height: 28px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+.info__image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.comment__section {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  font-size: 36px;
+  line-height: 50px;
+  padding: 100px;
+  font-weight: 500;
+  color: gray;
+}

@@ -1,0 +1,39 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.color-list {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  width: 300px;
+  height: 300px;
+}
+.minibox {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.blue > .minibox {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.orange {
+  background-color: orange;
+}
+.red {
+  background-color: red;
+}
+.red > .minibox {
+  position: absolute;
+}

@@ -1,0 +1,36 @@
+* {
+  font-family: "Noto Sans KR", serif;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.nav-box:hover {
+  color: white;
+  background-color: black;
+}
+.nav-box {
+  padding: 25px 40px;
+  transition: all 0.2s;
+}
+.nav > li:hover .nav-box {
+  opacity: 1;
+}

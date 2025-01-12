@@ -1,0 +1,21 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: all 2s;
+}
+.box:hover {
+  background-color: yellow;
+  transform: rotate(360deg);
+}
+
+.bigbox {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  transition: all 2s;
+}
+.bigbox:hover {
+  transform: rotate(45deg) scale(2);
+  background-color: skyblue;
+}
