@@ -17,6 +17,8 @@
   color: white;
   font-size: 70px;
   font-weight: 900;
+  text-align: center;
+  line-height: 80px;
 }
 .intro__info {
   font-size: 20px;
@@ -86,13 +88,13 @@
 .work__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr;
+  grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 .work__card {
   position: relative;
-  width: 250px;
+  width: 100%;
   height: 250px;
   display: flex;
   justify-content: center;
@@ -156,17 +158,91 @@
 }
 .work__card--image {
   width: 100%;
+  padding: 20px;
   object-fit: cover;
 }
-.work__card--1 {
+.work-_card--1 {
   grid-area: 1 / 1 / 2 / 2;
 }
-.work__card--2 {
+.work-_card--2 {
   grid-area: 1 / 2 / 2 / 3;
 }
-.work__card--3 {
+.work-_card--3 {
   grid-area: 1 / 3 / 2 / 4;
 }
-.work__card--4 {
+.work-_card--4 {
   grid-area: 1 / 4 / 2 / 5;
+}
+.work-_card--5 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.work-_card--6 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.work-_card--7 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.work-_card--8 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+
+@media screen and (max-width: 480px), (max-width: 780px) {
+  .intro {
+    text-align: center;
+  }
+  .card__title {
+    padding-left: 20px;
+  }
+  .aboutme__link {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .aboutme__card {
+    padding: 40px 0;
+  }
+  .work {
+    width: 100%;
+  }
+  .card__title {
+    padding-left: 20px;
+  }
+  .card__hover > .work__btn {
+    display: none;
+  }
+
+  .work__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .work_card--1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .work_card--2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .work_card--3 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .work_card--4 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .work_card--5 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+  .work_card--6 {
+    grid-area: 3 / 2 / 4 / 3;
+  }
+  .work_card--7 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+  .work_card--8 {
+    grid-area: 4 / 2 / 5 / 3;
+  }
 }

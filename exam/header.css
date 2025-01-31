@@ -1,0 +1,40 @@
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  background-color: white;
+}
+.nav__logo {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav__menu {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.nav__language {
+  padding: 10px 20px;
+  border: 1px solid gray;
+  border-radius: 25px;
+}
+
+.header__nav > .nav__menu--mobile {
+  font-size: 20px;
+  display: none;
+}
+@media screen and (max-width: 480px), (max-width: 780px) {
+  .header__nav {
+    max-width: 368px;
+  }
+  .nav__menu,
+  .nav__language {
+    display: none;
+  }
+  .header__nav > .nav__menu--mobile {
+    display: block;
+  }
+}
